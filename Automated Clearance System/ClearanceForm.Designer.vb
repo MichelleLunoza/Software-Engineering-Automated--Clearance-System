@@ -26,11 +26,11 @@ Partial Class ClearanceForm
         Me.CIButton = New System.Windows.Forms.Button()
         Me.BCDButton = New System.Windows.Forms.Button()
         Me.CIDButton = New System.Windows.Forms.Button()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.BackButton = New System.Windows.Forms.Button()
         Me.ULabel = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.BackButton = New System.Windows.Forms.Button()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -75,15 +75,41 @@ Partial Class ClearanceForm
         Me.CIDButton.Text = "CERTIFICATE OF INDIGENCY"
         Me.CIDButton.UseVisualStyleBackColor = True
         '
+        'BackButton
+        '
+        Me.BackButton.Location = New System.Drawing.Point(574, 9)
+        Me.BackButton.Name = "BackButton"
+        Me.BackButton.Size = New System.Drawing.Size(75, 23)
+        Me.BackButton.TabIndex = 21
+        Me.BackButton.Text = "Back"
+        Me.BackButton.UseVisualStyleBackColor = True
+        '
+        'ULabel
+        '
+        Me.ULabel.AutoSize = True
+        Me.ULabel.Location = New System.Drawing.Point(48, 14)
+        Me.ULabel.Name = "ULabel"
+        Me.ULabel.Size = New System.Drawing.Size(0, 13)
+        Me.ULabel.TabIndex = 20
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(9, 14)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(35, 13)
+        Me.Label1.TabIndex = 19
+        Me.Label1.Text = "User: "
+        '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.BCDButton)
         Me.GroupBox2.Controls.Add(Me.CIDButton)
         Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(334, 83)
+        Me.GroupBox2.Location = New System.Drawing.Point(331, 78)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(283, 191)
-        Me.GroupBox2.TabIndex = 8
+        Me.GroupBox2.TabIndex = 18
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "DETAILS"
         '
@@ -92,38 +118,12 @@ Partial Class ClearanceForm
         Me.GroupBox1.Controls.Add(Me.BCButton)
         Me.GroupBox1.Controls.Add(Me.CIButton)
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(49, 83)
+        Me.GroupBox1.Location = New System.Drawing.Point(46, 78)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(243, 191)
-        Me.GroupBox1.TabIndex = 7
+        Me.GroupBox1.TabIndex = 17
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "PRINT"
-        '
-        'ULabel
-        '
-        Me.ULabel.AutoSize = True
-        Me.ULabel.Location = New System.Drawing.Point(51, 19)
-        Me.ULabel.Name = "ULabel"
-        Me.ULabel.Size = New System.Drawing.Size(0, 13)
-        Me.ULabel.TabIndex = 10
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(12, 19)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(35, 13)
-        Me.Label1.TabIndex = 9
-        Me.Label1.Text = "User: "
-        '
-        'BackButton
-        '
-        Me.BackButton.Location = New System.Drawing.Point(577, 14)
-        Me.BackButton.Name = "BackButton"
-        Me.BackButton.Size = New System.Drawing.Size(75, 23)
-        Me.BackButton.TabIndex = 11
-        Me.BackButton.Text = "Back"
-        Me.BackButton.UseVisualStyleBackColor = True
         '
         'ClearanceForm
         '
@@ -135,9 +135,11 @@ Partial Class ClearanceForm
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
         Me.Name = "ClearanceForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "ClearanceForm"
+        Me.Text = "Clearance Form"
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)
@@ -148,9 +150,9 @@ Partial Class ClearanceForm
     Friend WithEvents CIButton As System.Windows.Forms.Button
     Friend WithEvents BCDButton As System.Windows.Forms.Button
     Friend WithEvents CIDButton As System.Windows.Forms.Button
-    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
-    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents BackButton As System.Windows.Forms.Button
     Friend WithEvents ULabel As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents BackButton As System.Windows.Forms.Button
+    Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
 End Class

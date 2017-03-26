@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Certificate_Indigency_Form
+Partial Class BrgyClearanceForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,7 +22,7 @@ Partial Class Certificate_Indigency_Form
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Certificate_Indigency_Form))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(BrgyClearanceForm))
         Me.PrintButton = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.DateTimePicker = New System.Windows.Forms.DateTimePicker()
@@ -43,7 +43,7 @@ Partial Class Certificate_Indigency_Form
         Me.PrintButton.Location = New System.Drawing.Point(286, 219)
         Me.PrintButton.Name = "PrintButton"
         Me.PrintButton.Size = New System.Drawing.Size(116, 26)
-        Me.PrintButton.TabIndex = 19
+        Me.PrintButton.TabIndex = 42
         Me.PrintButton.Text = "Print"
         Me.PrintButton.UseVisualStyleBackColor = True
         '
@@ -53,7 +53,7 @@ Partial Class Certificate_Indigency_Form
         Me.Label5.Location = New System.Drawing.Point(71, 163)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(56, 13)
-        Me.Label5.TabIndex = 18
+        Me.Label5.TabIndex = 41
         Me.Label5.Text = "DateTime:"
         '
         'DateTimePicker
@@ -61,14 +61,14 @@ Partial Class Certificate_Indigency_Form
         Me.DateTimePicker.Location = New System.Drawing.Point(171, 157)
         Me.DateTimePicker.Name = "DateTimePicker"
         Me.DateTimePicker.Size = New System.Drawing.Size(231, 20)
-        Me.DateTimePicker.TabIndex = 17
+        Me.DateTimePicker.TabIndex = 40
         '
         'LnameTextBox
         '
         Me.LnameTextBox.Location = New System.Drawing.Point(171, 131)
         Me.LnameTextBox.Name = "LnameTextBox"
         Me.LnameTextBox.Size = New System.Drawing.Size(231, 20)
-        Me.LnameTextBox.TabIndex = 16
+        Me.LnameTextBox.TabIndex = 39
         '
         'Label4
         '
@@ -76,7 +76,7 @@ Partial Class Certificate_Indigency_Form
         Me.Label4.Location = New System.Drawing.Point(71, 138)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(56, 13)
-        Me.Label4.TabIndex = 15
+        Me.Label4.TabIndex = 38
         Me.Label4.Text = "Lastname:"
         '
         'MnameTextBox
@@ -84,7 +84,7 @@ Partial Class Certificate_Indigency_Form
         Me.MnameTextBox.Location = New System.Drawing.Point(171, 105)
         Me.MnameTextBox.Name = "MnameTextBox"
         Me.MnameTextBox.Size = New System.Drawing.Size(231, 20)
-        Me.MnameTextBox.TabIndex = 14
+        Me.MnameTextBox.TabIndex = 37
         '
         'Label3
         '
@@ -92,7 +92,7 @@ Partial Class Certificate_Indigency_Form
         Me.Label3.Location = New System.Drawing.Point(71, 112)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(67, 13)
-        Me.Label3.TabIndex = 13
+        Me.Label3.TabIndex = 36
         Me.Label3.Text = "Middlename:"
         '
         'FnameTextBox
@@ -100,7 +100,7 @@ Partial Class Certificate_Indigency_Form
         Me.FnameTextBox.Location = New System.Drawing.Point(171, 79)
         Me.FnameTextBox.Name = "FnameTextBox"
         Me.FnameTextBox.Size = New System.Drawing.Size(231, 20)
-        Me.FnameTextBox.TabIndex = 12
+        Me.FnameTextBox.TabIndex = 35
         '
         'Label2
         '
@@ -108,7 +108,7 @@ Partial Class Certificate_Indigency_Form
         Me.Label2.Location = New System.Drawing.Point(71, 86)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(55, 13)
-        Me.Label2.TabIndex = 11
+        Me.Label2.TabIndex = 34
         Me.Label2.Text = "Firstname:"
         '
         'Label1
@@ -117,11 +117,8 @@ Partial Class Certificate_Indigency_Form
         Me.Label1.Location = New System.Drawing.Point(159, 34)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(184, 13)
-        Me.Label1.TabIndex = 10
+        Me.Label1.TabIndex = 33
         Me.Label1.Text = "Barangay Clearance Form Information"
-        '
-        'PrintDocument1
-        '
         '
         'PrintPreviewDialog1
         '
@@ -138,16 +135,15 @@ Partial Class Certificate_Indigency_Form
         Me.BackButton.Location = New System.Drawing.Point(12, 12)
         Me.BackButton.Name = "BackButton"
         Me.BackButton.Size = New System.Drawing.Size(75, 23)
-        Me.BackButton.TabIndex = 20
+        Me.BackButton.TabIndex = 43
         Me.BackButton.Text = "Back"
         Me.BackButton.UseVisualStyleBackColor = True
         '
-        'Certificate_Indigency_Form
+        'BrgyClearanceForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(472, 278)
-        Me.Controls.Add(Me.BackButton)
         Me.Controls.Add(Me.PrintButton)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.DateTimePicker)
@@ -158,9 +154,12 @@ Partial Class Certificate_Indigency_Form
         Me.Controls.Add(Me.FnameTextBox)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Certificate_Indigency_Form"
+        Me.Controls.Add(Me.BackButton)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.Name = "BrgyClearanceForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Certificate_Indigency_Form"
+        Me.Text = "Brgy Clearance Form"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

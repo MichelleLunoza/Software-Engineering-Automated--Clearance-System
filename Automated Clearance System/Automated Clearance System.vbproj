@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{34D307AB-E990-4660-8E18-DB5E48F0EE44}</ProjectGuid>
+    <ProjectGuid>{CA340161-995A-4905-AD04-195CA4318E29}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>Automated_Clearance_System.My.MyApplication</StartupObject>
     <RootNamespace>Automated_Clearance_System</RootNamespace>
@@ -70,40 +70,58 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Brgy_Clearance_Details_Form.Designer.vb">
-      <DependentUpon>Brgy_Clearance_Details_Form.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Brgy_Clearance_Details_Form.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Brgy_Clearance_Form.Designer.vb">
-      <DependentUpon>Brgy_Clearance_Form.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Brgy_Clearance_Form.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Certificate_Indigency_Details_Form.Designer.vb">
-      <DependentUpon>Certificate_Indigency_Details_Form.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Certificate_Indigency_Details_Form.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Certificate_Indigency_Form.Designer.vb">
-      <DependentUpon>Certificate_Indigency_Form.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Certificate_Indigency_Form.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Change_Password_Form.Designer.vb">
-      <DependentUpon>Change_Password_Form.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Change_Password_Form.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ClearanceDbDataSet.Designer.vb">
+    <Compile Include="AutomatedClearanceDbDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ClearanceDbDataSet.xsd</DependentUpon>
+      <DependentUpon>AutomatedClearanceDbDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BrgyClearanceDetailsForm.Designer.vb">
+      <DependentUpon>BrgyClearanceDetailsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BrgyClearanceDetailsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrgyClearanceForm.Designer.vb">
+      <DependentUpon>BrgyClearanceForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BrgyClearanceForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBMS_DetailsForm.Designer.vb">
+      <DependentUpon>CBMS_DetailsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CBMS_DetailsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBMS_Form.Designer.vb">
+      <DependentUpon>CBMS_Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CBMS_Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CBMS_TotalForm.Designer.vb">
+      <DependentUpon>CBMS_TotalForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CBMS_TotalForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertificateIndigencyDetailsForm.Designer.vb">
+      <DependentUpon>CertificateIndigencyDetailsForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CertificateIndigencyDetailsForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CertificateIndigencyForm.Designer.vb">
+      <DependentUpon>CertificateIndigencyForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CertificateIndigencyForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePasswordForm.Designer.vb">
+      <DependentUpon>ChangePasswordForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePasswordForm.vb">
+      <SubType>Form</SubType>
     </Compile>
     <Compile Include="ClearanceForm.Designer.vb">
       <DependentUpon>ClearanceForm.vb</DependentUpon>
@@ -111,11 +129,11 @@
     <Compile Include="ClearanceForm.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.vb">
+    <Compile Include="Login Form.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginForm.Designer.vb">
-      <DependentUpon>LoginForm.vb</DependentUpon>
+    <Compile Include="Login Form.Designer.vb">
+      <DependentUpon>Login Form.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.vb">
@@ -139,28 +157,43 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="TotalCBMS_Purok.Designer.vb">
+      <DependentUpon>TotalCBMS_Purok.vb</DependentUpon>
+    </Compile>
+    <Compile Include="TotalCBMS_Purok.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Brgy_Clearance_Details_Form.resx">
-      <DependentUpon>Brgy_Clearance_Details_Form.vb</DependentUpon>
+    <EmbeddedResource Include="BrgyClearanceDetailsForm.resx">
+      <DependentUpon>BrgyClearanceDetailsForm.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Brgy_Clearance_Form.resx">
-      <DependentUpon>Brgy_Clearance_Form.vb</DependentUpon>
+    <EmbeddedResource Include="BrgyClearanceForm.resx">
+      <DependentUpon>BrgyClearanceForm.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Certificate_Indigency_Details_Form.resx">
-      <DependentUpon>Certificate_Indigency_Details_Form.vb</DependentUpon>
+    <EmbeddedResource Include="CBMS_DetailsForm.resx">
+      <DependentUpon>CBMS_DetailsForm.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Certificate_Indigency_Form.resx">
-      <DependentUpon>Certificate_Indigency_Form.vb</DependentUpon>
+    <EmbeddedResource Include="CBMS_Form.resx">
+      <DependentUpon>CBMS_Form.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Change_Password_Form.resx">
-      <DependentUpon>Change_Password_Form.vb</DependentUpon>
+    <EmbeddedResource Include="CBMS_TotalForm.resx">
+      <DependentUpon>CBMS_TotalForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertificateIndigencyDetailsForm.resx">
+      <DependentUpon>CertificateIndigencyDetailsForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CertificateIndigencyForm.resx">
+      <DependentUpon>CertificateIndigencyForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePasswordForm.resx">
+      <DependentUpon>ChangePasswordForm.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ClearanceForm.resx">
       <DependentUpon>ClearanceForm.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="LoginForm.resx">
-      <DependentUpon>LoginForm.vb</DependentUpon>
+    <EmbeddedResource Include="Login Form.resx">
+      <DependentUpon>Login Form.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.vb</DependentUpon>
@@ -171,18 +204,21 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="TotalCBMS_Purok.resx">
+      <DependentUpon>TotalCBMS_Purok.vb</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <None Include="ClearanceDbDataSet.xsc">
-      <DependentUpon>ClearanceDbDataSet.xsd</DependentUpon>
+    <None Include="AutomatedClearanceDbDataSet.xsc">
+      <DependentUpon>AutomatedClearanceDbDataSet.xsd</DependentUpon>
     </None>
-    <None Include="ClearanceDbDataSet.xsd">
+    <None Include="AutomatedClearanceDbDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>ClearanceDbDataSet.Designer.vb</LastGenOutput>
+      <LastGenOutput>AutomatedClearanceDbDataSet.Designer.vb</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="ClearanceDbDataSet.xss">
-      <DependentUpon>ClearanceDbDataSet.xsd</DependentUpon>
+    <None Include="AutomatedClearanceDbDataSet.xss">
+      <DependentUpon>AutomatedClearanceDbDataSet.xsd</DependentUpon>
     </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -193,7 +229,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

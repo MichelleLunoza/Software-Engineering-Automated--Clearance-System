@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.Automated_Clearance_System.Brgy_Clearance_Details_Form
+            Me.MainForm = Global.Automated_Clearance_System.TotalCBMS_Purok
         End Sub
     End Class
 End Namespace

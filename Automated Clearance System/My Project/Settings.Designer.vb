@@ -57,20 +57,11 @@ Namespace My
         <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
          Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
          Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=MIGUTIERREZ-PC;Integrated Security=True")>  _
-        Public ReadOnly Property ConnectionString() As String
+         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=MIGUTIERREZ-PC;Initial Catalog=AutomatedClearanceDb;Integrated Securi"& _ 
+            "ty=True")>  _
+        Public ReadOnly Property AutomatedClearanceDbConnectionString() As String
             Get
-                Return CType(Me("ConnectionString"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=MIGUTIERREZ-PC;Initial Catalog=ClearanceDb;Integrated Security=True")>  _
-        Public ReadOnly Property ClearanceDbConnectionString() As String
-            Get
-                Return CType(Me("ClearanceDbConnectionString"),String)
+                Return CType(Me("AutomatedClearanceDbConnectionString"),String)
             End Get
         End Property
     End Class

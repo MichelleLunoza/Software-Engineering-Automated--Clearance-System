@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Change_Password_Form
+Partial Class ChangePasswordForm
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -32,14 +32,14 @@ Partial Class Change_Password_Form
         Me.NewPassTextBox = New System.Windows.Forms.TextBox()
         Me.ConfirmNewPassTextBox = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.ValidateButton = New System.Windows.Forms.Button()
         Me.ClearButton = New System.Windows.Forms.Button()
         Me.ChangePasswordButton = New System.Windows.Forms.Button()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.ValidateButton = New System.Windows.Forms.Button()
-        Me.Panel2.SuspendLayout()
+        Me.Panel2 = New System.Windows.Forms.Panel()
         Me.Panel1.SuspendLayout()
+        Me.Panel2.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label4
@@ -125,32 +125,52 @@ Partial Class Change_Password_Form
         Me.Label1.TabIndex = 14
         Me.Label1.Text = "New Password:"
         '
+        'ValidateButton
+        '
+        Me.ValidateButton.Location = New System.Drawing.Point(168, 360)
+        Me.ValidateButton.Name = "ValidateButton"
+        Me.ValidateButton.Size = New System.Drawing.Size(130, 31)
+        Me.ValidateButton.TabIndex = 38
+        Me.ValidateButton.Text = "Validate"
+        Me.ValidateButton.UseVisualStyleBackColor = True
+        '
         'ClearButton
         '
-        Me.ClearButton.Location = New System.Drawing.Point(302, 343)
+        Me.ClearButton.Location = New System.Drawing.Point(319, 360)
         Me.ClearButton.Name = "ClearButton"
         Me.ClearButton.Size = New System.Drawing.Size(130, 31)
-        Me.ClearButton.TabIndex = 25
+        Me.ClearButton.TabIndex = 37
         Me.ClearButton.Text = "Clear"
         Me.ClearButton.UseVisualStyleBackColor = True
         '
         'ChangePasswordButton
         '
-        Me.ChangePasswordButton.Location = New System.Drawing.Point(151, 343)
+        Me.ChangePasswordButton.Location = New System.Drawing.Point(168, 360)
         Me.ChangePasswordButton.Name = "ChangePasswordButton"
         Me.ChangePasswordButton.Size = New System.Drawing.Size(130, 31)
-        Me.ChangePasswordButton.TabIndex = 24
+        Me.ChangePasswordButton.TabIndex = 36
         Me.ChangePasswordButton.Text = "Change Password"
         Me.ChangePasswordButton.UseVisualStyleBackColor = True
         '
         'Label6
         '
         Me.Label6.AutoSize = True
-        Me.Label6.Location = New System.Drawing.Point(249, 59)
+        Me.Label6.Location = New System.Drawing.Point(275, 56)
         Me.Label6.Name = "Label6"
         Me.Label6.Size = New System.Drawing.Size(93, 13)
-        Me.Label6.TabIndex = 21
+        Me.Label6.TabIndex = 33
         Me.Label6.Text = "Change Password"
+        '
+        'Panel1
+        '
+        Me.Panel1.Controls.Add(Me.Label4)
+        Me.Panel1.Controls.Add(Me.OldUsernameTextBox)
+        Me.Panel1.Controls.Add(Me.Label3)
+        Me.Panel1.Controls.Add(Me.OldPassTextBox)
+        Me.Panel1.Location = New System.Drawing.Point(102, 142)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(423, 124)
+        Me.Panel1.TabIndex = 34
         '
         'Panel2
         '
@@ -160,32 +180,12 @@ Partial Class Change_Password_Form
         Me.Panel2.Controls.Add(Me.NewPassTextBox)
         Me.Panel2.Controls.Add(Me.ConfirmNewPassTextBox)
         Me.Panel2.Controls.Add(Me.Label1)
-        Me.Panel2.Location = New System.Drawing.Point(107, 133)
+        Me.Panel2.Location = New System.Drawing.Point(102, 142)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(423, 140)
-        Me.Panel2.TabIndex = 23
+        Me.Panel2.TabIndex = 35
         '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.Label4)
-        Me.Panel1.Controls.Add(Me.OldUsernameTextBox)
-        Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Controls.Add(Me.OldPassTextBox)
-        Me.Panel1.Location = New System.Drawing.Point(107, 133)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(423, 124)
-        Me.Panel1.TabIndex = 22
-        '
-        'ValidateButton
-        '
-        Me.ValidateButton.Location = New System.Drawing.Point(151, 343)
-        Me.ValidateButton.Name = "ValidateButton"
-        Me.ValidateButton.Size = New System.Drawing.Size(130, 31)
-        Me.ValidateButton.TabIndex = 26
-        Me.ValidateButton.Text = "Validate"
-        Me.ValidateButton.UseVisualStyleBackColor = True
-        '
-        'Change_Password_Form
+        'ChangePasswordForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -194,15 +194,17 @@ Partial Class Change_Password_Form
         Me.Controls.Add(Me.ClearButton)
         Me.Controls.Add(Me.ChangePasswordButton)
         Me.Controls.Add(Me.Label6)
-        Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Panel1)
-        Me.Name = "Change_Password_Form"
+        Me.Controls.Add(Me.Panel2)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.Name = "ChangePasswordForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Change_Password_Form"
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
+        Me.Text = "Change Password Form"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
+        Me.Panel2.ResumeLayout(False)
+        Me.Panel2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -217,10 +219,10 @@ Partial Class Change_Password_Form
     Friend WithEvents NewPassTextBox As System.Windows.Forms.TextBox
     Friend WithEvents ConfirmNewPassTextBox As System.Windows.Forms.TextBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ValidateButton As System.Windows.Forms.Button
     Friend WithEvents ClearButton As System.Windows.Forms.Button
     Friend WithEvents ChangePasswordButton As System.Windows.Forms.Button
     Friend WithEvents Label6 As System.Windows.Forms.Label
-    Friend WithEvents Panel2 As System.Windows.Forms.Panel
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
-    Friend WithEvents ValidateButton As System.Windows.Forms.Button
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
 End Class
