@@ -13,12 +13,13 @@ Public Class LoginForm
             MessageBox.Show("Logged in successfully as Guest", "", MessageBoxButtons.OK, MessageBoxIcon.Information)
             MainForm.Show()
             Me.Hide()
-        ElseIf usernameTextBox.Text = "" And passwordTextBox.Text = "" Then
-            MessageBox.Show("Please enter your username and password.")
-        Else : TypeUserComboBox.SelectedItem = "Administrator"
+        ElseIf TypeUserComboBox.SelectedItem = "Administrator" Then
             Login()
             MainForm.Show()
             Me.Hide()
+        Else : usernameTextBox.Text = "" And passwordTextBox.Text = ""
+            MessageBox.Show("Please enter your username and password.")
+        
         End If
     End Sub
 
@@ -68,6 +69,8 @@ Public Class LoginForm
 
                     usernameTextBox.Clear()
                     passwordTextBox.Clear()
+                    usernameTextBox.ReadOnly = True
+                    passwordTextBox.ReadOnly = True
 
                 End If
             End While

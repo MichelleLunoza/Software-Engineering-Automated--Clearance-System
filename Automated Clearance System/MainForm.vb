@@ -13,4 +13,9 @@
         CBMS_Form.Show()
         Me.Hide()
     End Sub
+
+    Private Sub LogoutButton_Click(sender As Object, e As EventArgs) Handles LogoutButton.Click
+        LoginForm.Show()
+        Me.Hide()
+    End Sub
 End Class

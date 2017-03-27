@@ -18,3 +18,23 @@ C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clea
 C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.LoginForm.resources
 C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_TotalForm.resources
 C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.TotalCBMS_Purok.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated Clearance System.exe
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated Clearance System.xml
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated Clearance System.pdb
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\bin\Debug\Automated Clearance System.exe
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\bin\Debug\Automated Clearance System.pdb
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\bin\Debug\Automated Clearance System.xml
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.BrgyClearanceDetailsForm.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.BrgyClearanceForm.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_DetailsForm.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_Form.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_TotalForm.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CertificateIndigencyDetailsForm.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CertificateIndigencyForm.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.ChangePasswordForm.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.ClearanceForm.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.LoginForm.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.MainForm.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.Resources.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated_Clearance_System.TotalCBMS_Purok.resources
+C:\Users\MiGutierrez\Desktop\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated Clearance System.vbproj.GenerateResource.Cache

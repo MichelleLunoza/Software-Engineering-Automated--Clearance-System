@@ -157,6 +157,13 @@ Public Class CertificateIndigencyDetailsForm
         MnameTextBox.ReadOnly = False
         LnameTextBox.ReadOnly = False
         DateTextBox.ReadOnly = False
+
+
+        FnameTextBox.Clear()
+        MnameTextBox.Clear()
+        LnameTextBox.Clear()
+        DateTextBox.Clear()
+        IDTextBox.Clear()
     End Sub
     Private Sub DataGridView1_CellClick(ByVal sender As Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellClick
         Dim row As DataGridViewRow = DataGridView1.CurrentRow

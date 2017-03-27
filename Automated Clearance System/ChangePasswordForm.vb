@@ -24,6 +24,7 @@ Public Class ChangePasswordForm
 
                     Password2 = OldPassTextBox.Text()
 
+
                     If Password = Password2 And username = OldUsernameTextBox.Text Then
 
                         MessageBox.Show("Successfully retrieve account.", "Account Retrieve", MessageBoxButtons.OK, MessageBoxIcon.Information)
@@ -38,6 +39,9 @@ Public Class ChangePasswordForm
                 MessageBox.Show("Old username and password do not match.", "Authentication Failure", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
                 OldUsernameTextBox.Focus()
                 OldPassTextBox.Focus()
+                OldPassTextBox.Clear()
+                OldUsernameTextBox.Clear()
+                OldUsernameTextBox.Focus()
 
             End If
 
