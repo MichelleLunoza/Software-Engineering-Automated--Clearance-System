@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AutomatedClearanceSystem
+</name>
+</assembly>
+<members>
+<member name="P:Automated_Clearance_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Automated_Clearance_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Automated_Clearance_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.AccountDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.Brgy_ClearanceTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.CBMSTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.CertificateIndigencyTableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.AccountRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.Brgy_ClearanceTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.CBMSTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.CertificateIndigencyTableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.AccountRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.Brgy_ClearanceTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.CBMSTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet.CertificateIndigencyTableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.AccountTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.Brgy_ClearanceTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.CBMSTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.CertificateIndigencyTableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Automated_Clearance_System.AutomatedClearanceDbDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Automated_Clearance_System.AutomatedClearanceDbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Automated_Clearance_System.AutomatedClearanceDbDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.TableAdapterManager.UpdateAll(Automated_Clearance_System.AutomatedClearanceDbDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>

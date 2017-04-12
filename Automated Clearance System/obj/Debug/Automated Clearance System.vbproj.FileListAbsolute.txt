@@ -1,0 +1,66 @@
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\bin\Debug\Automated Clearance System.exe
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\bin\Debug\Automated Clearance System.pdb
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\bin\Debug\Automated Clearance System.xml
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.BrgyClearanceDetailsForm.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.BrgyClearanceForm.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_DetailsForm.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_Form.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CertificateIndigencyDetailsForm.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CertificateIndigencyForm.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.ChangePasswordForm.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.ClearanceForm.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.MainForm.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.Resources.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.vbproj.GenerateResource.Cache
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.exe
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.xml
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.pdb
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.LoginForm.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_TotalForm.resources
+C:\Users\MiGutierrez\Documents\new\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.TotalCBMS_Purok.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.exe
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.xml
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.pdb
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\bin\Debug\Automated Clearance System.exe
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\bin\Debug\Automated Clearance System.pdb
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\bin\Debug\Automated Clearance System.xml
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.BrgyClearanceDetailsForm.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.BrgyClearanceForm.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_DetailsForm.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_Form.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_TotalForm.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CertificateIndigencyDetailsForm.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CertificateIndigencyForm.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.ChangePasswordForm.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.ClearanceForm.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.LoginForm.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.MainForm.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.Resources.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.TotalCBMS_Purok.resources
+C:\Users\Edison\Desktop\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.vbproj.GenerateResource.Cache
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.exe
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.xml
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.pdb
+F:\New\Automated Clearance System\Automated Clearance System\bin\Debug\Automated Clearance System.exe
+F:\New\Automated Clearance System\Automated Clearance System\bin\Debug\Automated Clearance System.pdb
+F:\New\Automated Clearance System\Automated Clearance System\bin\Debug\Automated Clearance System.xml
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.BrgyClearanceDetailsForm.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.BrgyClearanceForm.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_DetailsForm.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_Form.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CBMS_TotalForm.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CertificateIndigencyDetailsForm.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.CertificateIndigencyForm.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.ChangePasswordForm.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.ClearanceForm.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.LoginForm.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.MainForm.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.Resources.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated_Clearance_System.TotalCBMS_Purok.resources
+F:\New\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.vbproj.GenerateResource.Cache
+D:\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.exe
+D:\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.xml
+D:\Automated Clearance System\Automated Clearance System\obj\Debug\Automated Clearance System.pdb
+C:\Users\MiGutierrez\Desktop\GIT\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated Clearance System.exe
+C:\Users\MiGutierrez\Desktop\GIT\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated Clearance System.xml
+C:\Users\MiGutierrez\Desktop\GIT\Software-Engineering-Automated--Clearance-System\Automated Clearance System\obj\Debug\Automated Clearance System.pdb
