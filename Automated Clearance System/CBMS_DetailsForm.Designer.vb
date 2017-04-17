@@ -79,6 +79,7 @@ Partial Class CBMS_DetailsForm
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.CBMSTableTableAdapter = New Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.CBMSTableTableAdapter()
+        Me.ClearButton1 = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CBMSTableBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AutomatedClearanceDbDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -513,7 +514,7 @@ Partial Class CBMS_DetailsForm
         '
         'DeleteButton
         '
-        Me.DeleteButton.Location = New System.Drawing.Point(1182, 626)
+        Me.DeleteButton.Location = New System.Drawing.Point(1182, 612)
         Me.DeleteButton.Name = "DeleteButton"
         Me.DeleteButton.Size = New System.Drawing.Size(112, 33)
         Me.DeleteButton.TabIndex = 68
@@ -588,6 +589,15 @@ Partial Class CBMS_DetailsForm
         '
         Me.CBMSTableTableAdapter.ClearBeforeFill = True
         '
+        'ClearButton1
+        '
+        Me.ClearButton1.Location = New System.Drawing.Point(1182, 651)
+        Me.ClearButton1.Name = "ClearButton1"
+        Me.ClearButton1.Size = New System.Drawing.Size(112, 33)
+        Me.ClearButton1.TabIndex = 72
+        Me.ClearButton1.Text = "Clear"
+        Me.ClearButton1.UseVisualStyleBackColor = True
+        '
         'CBMS_DetailsForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -595,6 +605,7 @@ Partial Class CBMS_DetailsForm
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1339, 696)
+        Me.Controls.Add(Me.ClearButton1)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.ClearButton)
         Me.Controls.Add(Me.SearchTextBox)
@@ -687,4 +698,5 @@ Partial Class CBMS_DetailsForm
     Friend WithEvents DataGridViewTextBoxColumn7 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn8 As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DataGridViewTextBoxColumn9 As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ClearButton1 As System.Windows.Forms.Button
 End Class

@@ -22,12 +22,18 @@ Partial Class MainForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(MainForm))
         Me.LogoutButton = New System.Windows.Forms.Button()
         Me.ULabel = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.CBMSButton = New System.Windows.Forms.Button()
         Me.ClearancesButton = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.DateLabel = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.TimeLabel = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'LogoutButton
@@ -42,6 +48,7 @@ Partial Class MainForm
         'ULabel
         '
         Me.ULabel.AutoSize = True
+        Me.ULabel.BackColor = System.Drawing.Color.Transparent
         Me.ULabel.Location = New System.Drawing.Point(265, 125)
         Me.ULabel.Name = "ULabel"
         Me.ULabel.Size = New System.Drawing.Size(0, 13)
@@ -83,6 +90,44 @@ Partial Class MainForm
         Me.ClearancesButton.TabIndex = 19
         Me.ClearancesButton.UseVisualStyleBackColor = False
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Location = New System.Drawing.Point(403, 125)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(33, 13)
+        Me.Label2.TabIndex = 24
+        Me.Label2.Text = "Date:"
+        '
+        'DateLabel
+        '
+        Me.DateLabel.AutoSize = True
+        Me.DateLabel.BackColor = System.Drawing.Color.Transparent
+        Me.DateLabel.Location = New System.Drawing.Point(437, 125)
+        Me.DateLabel.Name = "DateLabel"
+        Me.DateLabel.Size = New System.Drawing.Size(0, 13)
+        Me.DateLabel.TabIndex = 25
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Location = New System.Drawing.Point(520, 125)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(33, 13)
+        Me.Label3.TabIndex = 26
+        Me.Label3.Text = "Time:"
+        '
+        'TimeLabel
+        '
+        Me.TimeLabel.AutoSize = True
+        Me.TimeLabel.BackColor = System.Drawing.Color.Transparent
+        Me.TimeLabel.Location = New System.Drawing.Point(556, 125)
+        Me.TimeLabel.Name = "TimeLabel"
+        Me.TimeLabel.Size = New System.Drawing.Size(0, 13)
+        Me.TimeLabel.TabIndex = 27
+        '
         'MainForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -90,6 +135,10 @@ Partial Class MainForm
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(663, 458)
+        Me.Controls.Add(Me.TimeLabel)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.DateLabel)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.LogoutButton)
         Me.Controls.Add(Me.ULabel)
         Me.Controls.Add(Me.Label1)
@@ -110,4 +159,9 @@ Partial Class MainForm
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents CBMSButton As System.Windows.Forms.Button
     Friend WithEvents ClearancesButton As System.Windows.Forms.Button
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents DateLabel As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents TimeLabel As System.Windows.Forms.Label
 End Class

@@ -50,4 +50,12 @@ Public Class CertificateIndigencyForm
         End If
 
     End Sub
+
+    Private Sub CertificateIndigencyForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Me.Refresh()
+        Timer1.Start()
+        ULabel.Text = LoginForm.TypeUserComboBox.SelectedItem.ToString
+        Me.DateLabel.Text = DateTime.Now.ToString("mm/dd/yyy")
+        Me.TimeLabel.Text = TimeOfDay.ToString("hh:mm:ss")
+    End Sub
 End Class

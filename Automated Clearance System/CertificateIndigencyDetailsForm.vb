@@ -6,6 +6,11 @@ Public Class CertificateIndigencyDetailsForm
         Me.CertificateIndigencyTableTableAdapter.Fill(Me.AutomatedClearanceDbDataSet.CertificateIndigencyTable)
         ULabel.Text = LoginForm.TypeUserComboBox.SelectedItem.ToString
         SaveButton.Enabled = False
+
+
+        Timer1.Start()
+        Me.DateLabel.Text = DateTime.Now.ToString("mm/dd/yyy")
+        Me.TimeLabel.Text = TimeOfDay.ToString("hh:mm:ss")
     End Sub
 
     Private Sub SearchnameTextBox_TextChanged(sender As Object, e As EventArgs) Handles SearchnameTextBox.TextChanged
@@ -167,5 +172,13 @@ Public Class CertificateIndigencyDetailsForm
         MnameTextBox.Text = row.Cells(3).Value.ToString()
         DateTextBox.Text = row.Cells(4).Value.ToString()
 
+    End Sub
+
+    Private Sub ClearButton1_Click(sender As Object, e As EventArgs) Handles ClearButton1.Click
+        FnameTextBox.Clear()
+        MnameTextBox.Clear()
+        LnameTextBox.Clear()
+        DateTextBox.Clear()
+        IDTextBox.Clear()
     End Sub
 End Class

@@ -6,6 +6,10 @@
             BCButton.Enabled = False
             CIButton.Enabled = False
         End If
+
+        Timer1.Start()
+        Me.DateLabel.Text = DateTime.Now.ToString("mm/dd/yyy")
+        Me.TimeLabel.Text = TimeOfDay.ToString("hh:mm:ss")
     End Sub
 
     Private Sub BCButton_Click(sender As Object, e As EventArgs) Handles BCButton.Click

@@ -22,6 +22,7 @@ Partial Class ClearanceForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(ClearanceForm))
         Me.BCButton = New System.Windows.Forms.Button()
         Me.CIButton = New System.Windows.Forms.Button()
@@ -32,6 +33,11 @@ Partial Class ClearanceForm
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.TimeLabel = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.DateLabel = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
@@ -88,6 +94,7 @@ Partial Class ClearanceForm
         'ULabel
         '
         Me.ULabel.AutoSize = True
+        Me.ULabel.BackColor = System.Drawing.Color.Transparent
         Me.ULabel.Location = New System.Drawing.Point(281, 139)
         Me.ULabel.Name = "ULabel"
         Me.ULabel.Size = New System.Drawing.Size(0, 13)
@@ -133,6 +140,44 @@ Partial Class ClearanceForm
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "PRINT"
         '
+        'TimeLabel
+        '
+        Me.TimeLabel.AutoSize = True
+        Me.TimeLabel.BackColor = System.Drawing.Color.Transparent
+        Me.TimeLabel.Location = New System.Drawing.Point(593, 139)
+        Me.TimeLabel.Name = "TimeLabel"
+        Me.TimeLabel.Size = New System.Drawing.Size(0, 13)
+        Me.TimeLabel.TabIndex = 31
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.BackColor = System.Drawing.Color.Transparent
+        Me.Label3.Location = New System.Drawing.Point(557, 139)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(33, 13)
+        Me.Label3.TabIndex = 30
+        Me.Label3.Text = "Time:"
+        '
+        'DateLabel
+        '
+        Me.DateLabel.AutoSize = True
+        Me.DateLabel.BackColor = System.Drawing.Color.Transparent
+        Me.DateLabel.Location = New System.Drawing.Point(474, 139)
+        Me.DateLabel.Name = "DateLabel"
+        Me.DateLabel.Size = New System.Drawing.Size(0, 13)
+        Me.DateLabel.TabIndex = 29
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.BackColor = System.Drawing.Color.Transparent
+        Me.Label2.Location = New System.Drawing.Point(440, 139)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(33, 13)
+        Me.Label2.TabIndex = 28
+        Me.Label2.Text = "Date:"
+        '
         'ClearanceForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -140,6 +185,10 @@ Partial Class ClearanceForm
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(709, 507)
+        Me.Controls.Add(Me.TimeLabel)
+        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.DateLabel)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.BackButton)
         Me.Controls.Add(Me.ULabel)
         Me.Controls.Add(Me.Label1)
@@ -166,4 +215,9 @@ Partial Class ClearanceForm
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
+    Friend WithEvents TimeLabel As System.Windows.Forms.Label
+    Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents DateLabel As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 End Class

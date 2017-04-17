@@ -57,6 +57,12 @@ Partial Class BrgyClearanceDetailsForm
         Me.Brgy_ClearanceTableTableAdapter = New Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.Brgy_ClearanceTableTableAdapter()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.ClearButton1 = New System.Windows.Forms.Button()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.TimeLabel = New System.Windows.Forms.Label()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.DateLabel = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.BrgyClearanceTableBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AutomatedClearanceDbDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -138,7 +144,7 @@ Partial Class BrgyClearanceDetailsForm
         '
         'DeleteButton
         '
-        Me.DeleteButton.Location = New System.Drawing.Point(939, 562)
+        Me.DeleteButton.Location = New System.Drawing.Point(939, 548)
         Me.DeleteButton.Name = "DeleteButton"
         Me.DeleteButton.Size = New System.Drawing.Size(112, 33)
         Me.DeleteButton.TabIndex = 48
@@ -319,7 +325,8 @@ Partial Class BrgyClearanceDetailsForm
         'ULabel
         '
         Me.ULabel.AutoSize = True
-        Me.ULabel.Location = New System.Drawing.Point(421, 192)
+        Me.ULabel.BackColor = System.Drawing.Color.Transparent
+        Me.ULabel.Location = New System.Drawing.Point(431, 192)
         Me.ULabel.Name = "ULabel"
         Me.ULabel.Size = New System.Drawing.Size(0, 13)
         Me.ULabel.TabIndex = 42
@@ -350,11 +357,58 @@ Partial Class BrgyClearanceDetailsForm
         '
         Me.Label9.AutoSize = True
         Me.Label9.BackColor = System.Drawing.SystemColors.ControlLightLight
-        Me.Label9.Location = New System.Drawing.Point(386, 192)
+        Me.Label9.Location = New System.Drawing.Point(391, 192)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(35, 13)
         Me.Label9.TabIndex = 56
         Me.Label9.Text = "User: "
+        '
+        'ClearButton1
+        '
+        Me.ClearButton1.Location = New System.Drawing.Point(939, 587)
+        Me.ClearButton1.Name = "ClearButton1"
+        Me.ClearButton1.Size = New System.Drawing.Size(112, 33)
+        Me.ClearButton1.TabIndex = 57
+        Me.ClearButton1.Text = "Clear"
+        Me.ClearButton1.UseVisualStyleBackColor = True
+        '
+        'TimeLabel
+        '
+        Me.TimeLabel.AutoSize = True
+        Me.TimeLabel.BackColor = System.Drawing.Color.Transparent
+        Me.TimeLabel.Location = New System.Drawing.Point(931, 192)
+        Me.TimeLabel.Name = "TimeLabel"
+        Me.TimeLabel.Size = New System.Drawing.Size(0, 13)
+        Me.TimeLabel.TabIndex = 61
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Location = New System.Drawing.Point(895, 192)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(33, 13)
+        Me.Label1.TabIndex = 60
+        Me.Label1.Text = "Time:"
+        '
+        'DateLabel
+        '
+        Me.DateLabel.AutoSize = True
+        Me.DateLabel.BackColor = System.Drawing.Color.Transparent
+        Me.DateLabel.Location = New System.Drawing.Point(729, 192)
+        Me.DateLabel.Name = "DateLabel"
+        Me.DateLabel.Size = New System.Drawing.Size(0, 13)
+        Me.DateLabel.TabIndex = 59
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Location = New System.Drawing.Point(695, 192)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(33, 13)
+        Me.Label10.TabIndex = 58
+        Me.Label10.Text = "Date:"
         '
         'BrgyClearanceDetailsForm
         '
@@ -363,6 +417,11 @@ Partial Class BrgyClearanceDetailsForm
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1129, 685)
+        Me.Controls.Add(Me.TimeLabel)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.DateLabel)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.ClearButton1)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.DataGridView1)
@@ -425,4 +484,10 @@ Partial Class BrgyClearanceDetailsForm
     Friend WithEvents IDTextBox As System.Windows.Forms.TextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents ClearButton1 As System.Windows.Forms.Button
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
+    Friend WithEvents TimeLabel As System.Windows.Forms.Label
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents DateLabel As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
 End Class

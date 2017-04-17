@@ -22,6 +22,7 @@ Partial Class BrgyClearanceForm
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(BrgyClearanceForm))
         Me.PrintButton = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
@@ -36,6 +37,13 @@ Partial Class BrgyClearanceForm
         Me.PrintDocument1 = New System.Drawing.Printing.PrintDocument()
         Me.PrintPreviewDialog1 = New System.Windows.Forms.PrintPreviewDialog()
         Me.BackButton = New System.Windows.Forms.Button()
+        Me.TimeLabel = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.DateLabel = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.ULabel = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'PrintButton
@@ -149,6 +157,63 @@ Partial Class BrgyClearanceForm
         Me.BackButton.Text = "Back"
         Me.BackButton.UseVisualStyleBackColor = True
         '
+        'TimeLabel
+        '
+        Me.TimeLabel.AutoSize = True
+        Me.TimeLabel.BackColor = System.Drawing.Color.Transparent
+        Me.TimeLabel.Location = New System.Drawing.Point(531, 122)
+        Me.TimeLabel.Name = "TimeLabel"
+        Me.TimeLabel.Size = New System.Drawing.Size(0, 13)
+        Me.TimeLabel.TabIndex = 67
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.BackColor = System.Drawing.Color.Transparent
+        Me.Label6.Location = New System.Drawing.Point(495, 122)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(33, 13)
+        Me.Label6.TabIndex = 66
+        Me.Label6.Text = "Time:"
+        '
+        'DateLabel
+        '
+        Me.DateLabel.AutoSize = True
+        Me.DateLabel.BackColor = System.Drawing.Color.Transparent
+        Me.DateLabel.Location = New System.Drawing.Point(416, 122)
+        Me.DateLabel.Name = "DateLabel"
+        Me.DateLabel.Size = New System.Drawing.Size(0, 13)
+        Me.DateLabel.TabIndex = 65
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Location = New System.Drawing.Point(382, 122)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(33, 13)
+        Me.Label10.TabIndex = 64
+        Me.Label10.Text = "Date:"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Location = New System.Drawing.Point(214, 122)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(35, 13)
+        Me.Label9.TabIndex = 63
+        Me.Label9.Text = "User: "
+        '
+        'ULabel
+        '
+        Me.ULabel.AutoSize = True
+        Me.ULabel.BackColor = System.Drawing.Color.Transparent
+        Me.ULabel.Location = New System.Drawing.Point(254, 122)
+        Me.ULabel.Name = "ULabel"
+        Me.ULabel.Size = New System.Drawing.Size(0, 13)
+        Me.ULabel.TabIndex = 62
+        '
         'BrgyClearanceForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -156,6 +221,12 @@ Partial Class BrgyClearanceForm
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(631, 447)
+        Me.Controls.Add(Me.TimeLabel)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.DateLabel)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.ULabel)
         Me.Controls.Add(Me.PrintButton)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.DateTimePicker)
@@ -190,4 +261,11 @@ Partial Class BrgyClearanceForm
     Friend WithEvents PrintDocument1 As System.Drawing.Printing.PrintDocument
     Friend WithEvents PrintPreviewDialog1 As System.Windows.Forms.PrintPreviewDialog
     Friend WithEvents BackButton As System.Windows.Forms.Button
+    Friend WithEvents TimeLabel As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents DateLabel As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents ULabel As System.Windows.Forms.Label
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 End Class

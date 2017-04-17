@@ -57,6 +57,12 @@ Partial Class CertificateIndigencyDetailsForm
         Me.SearchnameTextBox = New System.Windows.Forms.TextBox()
         Me.CertificateIndigencyTableTableAdapter = New Automated_Clearance_System.AutomatedClearanceDbDataSetTableAdapters.CertificateIndigencyTableTableAdapter()
         Me.Label8 = New System.Windows.Forms.Label()
+        Me.ClearButton1 = New System.Windows.Forms.Button()
+        Me.TimeLabel = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.DateLabel = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.CertificateIndigencyTableBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.AutomatedClearanceDbDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -138,7 +144,7 @@ Partial Class CertificateIndigencyDetailsForm
         '
         'DeleteButton
         '
-        Me.DeleteButton.Location = New System.Drawing.Point(914, 565)
+        Me.DeleteButton.Location = New System.Drawing.Point(914, 551)
         Me.DeleteButton.Name = "DeleteButton"
         Me.DeleteButton.Size = New System.Drawing.Size(112, 33)
         Me.DeleteButton.TabIndex = 48
@@ -319,7 +325,8 @@ Partial Class CertificateIndigencyDetailsForm
         'ULabel
         '
         Me.ULabel.AutoSize = True
-        Me.ULabel.Location = New System.Drawing.Point(423, 189)
+        Me.ULabel.BackColor = System.Drawing.Color.Transparent
+        Me.ULabel.Location = New System.Drawing.Point(427, 189)
         Me.ULabel.Name = "ULabel"
         Me.ULabel.Size = New System.Drawing.Size(0, 13)
         Me.ULabel.TabIndex = 42
@@ -356,6 +363,53 @@ Partial Class CertificateIndigencyDetailsForm
         Me.Label8.TabIndex = 54
         Me.Label8.Text = "Log for Certificate of Indigency"
         '
+        'ClearButton1
+        '
+        Me.ClearButton1.Location = New System.Drawing.Point(914, 590)
+        Me.ClearButton1.Name = "ClearButton1"
+        Me.ClearButton1.Size = New System.Drawing.Size(112, 33)
+        Me.ClearButton1.TabIndex = 58
+        Me.ClearButton1.Text = "Clear"
+        Me.ClearButton1.UseVisualStyleBackColor = True
+        '
+        'TimeLabel
+        '
+        Me.TimeLabel.AutoSize = True
+        Me.TimeLabel.BackColor = System.Drawing.Color.Transparent
+        Me.TimeLabel.Location = New System.Drawing.Point(931, 189)
+        Me.TimeLabel.Name = "TimeLabel"
+        Me.TimeLabel.Size = New System.Drawing.Size(0, 13)
+        Me.TimeLabel.TabIndex = 65
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.BackColor = System.Drawing.Color.Transparent
+        Me.Label9.Location = New System.Drawing.Point(895, 189)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(33, 13)
+        Me.Label9.TabIndex = 64
+        Me.Label9.Text = "Time:"
+        '
+        'DateLabel
+        '
+        Me.DateLabel.AutoSize = True
+        Me.DateLabel.BackColor = System.Drawing.Color.Transparent
+        Me.DateLabel.Location = New System.Drawing.Point(729, 189)
+        Me.DateLabel.Name = "DateLabel"
+        Me.DateLabel.Size = New System.Drawing.Size(0, 13)
+        Me.DateLabel.TabIndex = 63
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.BackColor = System.Drawing.Color.Transparent
+        Me.Label10.Location = New System.Drawing.Point(695, 189)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(33, 13)
+        Me.Label10.TabIndex = 62
+        Me.Label10.Text = "Date:"
+        '
         'CertificateIndigencyDetailsForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -363,6 +417,11 @@ Partial Class CertificateIndigencyDetailsForm
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(1129, 685)
+        Me.Controls.Add(Me.TimeLabel)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.DateLabel)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.ClearButton1)
         Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.DataGridView1)
         Me.Controls.Add(Me.UpdateButton)
@@ -425,4 +484,10 @@ Partial Class CertificateIndigencyDetailsForm
     Friend WithEvents MiddlenameDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents DateDataGridViewTextBoxColumn As System.Windows.Forms.DataGridViewTextBoxColumn
     Friend WithEvents Label8 As System.Windows.Forms.Label
+    Friend WithEvents ClearButton1 As System.Windows.Forms.Button
+    Friend WithEvents TimeLabel As System.Windows.Forms.Label
+    Friend WithEvents Label9 As System.Windows.Forms.Label
+    Friend WithEvents DateLabel As System.Windows.Forms.Label
+    Friend WithEvents Label10 As System.Windows.Forms.Label
+    Friend WithEvents Timer1 As System.Windows.Forms.Timer
 End Class

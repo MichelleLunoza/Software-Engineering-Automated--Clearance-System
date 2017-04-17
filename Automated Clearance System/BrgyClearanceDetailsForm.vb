@@ -5,6 +5,10 @@ Public Class BrgyClearanceDetailsForm
         'TODO: This line of code loads data into the 'AutomatedClearanceDbDataSet.Brgy_ClearanceTable' table. You can move, or remove it, as needed.
         Me.Brgy_ClearanceTableTableAdapter.Fill(Me.AutomatedClearanceDbDataSet.Brgy_ClearanceTable)
         ULabel.Text = LoginForm.TypeUserComboBox.SelectedItem.ToString
+
+        Timer1.Start()
+        Me.DateLabel.Text = DateTime.Now.ToString("mm/dd/yyy")
+        Me.TimeLabel.Text = TimeOfDay.ToString("hh:mm:ss")
     End Sub
 
     Private Sub SearchnameTextBox_TextChanged(sender As Object, e As EventArgs) Handles SearchnameTextBox.TextChanged
@@ -167,5 +171,13 @@ Public Class BrgyClearanceDetailsForm
         MnameTextBox.Text = row.Cells(3).Value.ToString()
         DateTextBox.Text = row.Cells(4).Value.ToString()
 
+    End Sub
+
+    Private Sub ClearButton1_Click(sender As Object, e As EventArgs) Handles ClearButton1.Click
+        FnameTextBox.Clear()
+        MnameTextBox.Clear()
+        LnameTextBox.Clear()
+        DateTextBox.Clear()
+        IDTextBox.Clear()
     End Sub
 End Class

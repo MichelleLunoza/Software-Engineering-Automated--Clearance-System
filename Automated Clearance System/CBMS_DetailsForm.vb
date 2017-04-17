@@ -262,4 +262,20 @@ Public Class CBMS_DetailsForm
         ThOldTextBox.ReadOnly = False
         SeniorTextBox.ReadOnly = False
     End Sub
+
+    Private Sub ClearButton1_Click(sender As Object, e As EventArgs) Handles ClearButton1.Click
+        HHnoTextBox.Clear()
+        HeadTextBox.Clear()
+        CategoryTextBox.Clear()
+        TotalPopTextBox.Clear()
+        TotalMTextBox.Clear()
+        TotalFTextBox.Clear()
+        OFWTextBox.Clear()
+        PWDTextBox.Clear()
+        MonthsTextBox.Clear()
+        TOTextBox.Clear()
+        SOldTextBox.Clear()
+        ThOldTextBox.Clear()
+        SeniorTextBox.Clear()
+    End Sub
 End Class

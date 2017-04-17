@@ -47,4 +47,11 @@ Public Class BrgyClearanceForm
         End If
 
     End Sub
+
+    Private Sub BrgyClearanceForm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Timer1.Start()
+        ULabel.Text = LoginForm.TypeUserComboBox.SelectedItem.ToString
+        Me.DateLabel.Text = DateTime.Now.ToString("mm/dd/yyy")
+        Me.TimeLabel.Text = TimeOfDay.ToString("hh:mm:ss")
+    End Sub
 End Class
